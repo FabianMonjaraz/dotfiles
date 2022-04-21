@@ -1,5 +1,7 @@
 set nocompatible
 
+set backspace=indent,eol,start
+
 set smartindent
 filetype on
 filetype plugin on
@@ -19,8 +21,10 @@ set showmatch
 set ignorecase
 set smartcase
 
+set ruler
 set cursorline
 set visualbell
+set showcmd
 
 set encoding=utf-8
 inoremap " ""<left>
