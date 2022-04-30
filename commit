@@ -1,0 +1,11 @@
+- setting nocompatible
+- setting encoding
+- setting inoremap
+  - autocomplete "
+  - autocomplete '
+  - autocomplete (
+  - autocomplete [
+  - autocomplete {
+  - autocomplete { <ENTER>
+- setting nnoremap
+  - <CR> to escape highlightsearch
